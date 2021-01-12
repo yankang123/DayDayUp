@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:background="@drawable/shape"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="85dp">
+    <com.example.daydayup.Ui.register.DrawhookView
+        android:id="@+id/hook"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"/>
+    <ImageView
+
+        android:id="@+id/reg_frag_image"
+     android:layout_centerHorizontal="true"
+android:layout_marginTop="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/reg_frag_text1"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/reg_frag_image"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/reg_frag_text1"
+        android:id="@+id/reg_frag_text2"
+        android:textSize="10sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
